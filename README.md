@@ -1,2 +1,2 @@
 # java-spring-udemy
-Java Spring &amp; Hibranate udemy course projects
+Java Spring &amp; Hibernate udemy course projects
