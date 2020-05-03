@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "spring-demo-one"
+		},
+		{
+			"path": "spring-demo-annotations"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.dependency.syncWithFolderExplorer": true,
+		"java.project.referencedLibraries": [
+			"/home/user/Tutorials/java-spring-udemy/lib/**/*.jar"
+		],
+		"java.dependency.packagePresentation": "flat",
+		"java.format.settings.url": "file:///home/user/Software/eclipse/formatter.xml",
+		"java.format.settings.profile": "Eclipse [built-in] (modified)"
+	},
+	"launch": {
+		"configurations": [
+			{
+				"type": "java",
+				"name": "Debug (Launch) - Current File",
+				"request": "launch",
+				"mainClass": "${file}"
+			}
+		],
+		"compounds": []
+	}
+}

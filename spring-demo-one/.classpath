@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<classpath>
+	<classpathentry
+			kind="con"
+			path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute
+					name="module"
+					value="true" />
+		</attributes>
+	</classpathentry>
+	<classpathentry
+			kind="src"
+			path="src" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-aop-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-aop-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-aspects-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-aspects-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-beans-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-beans-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-context-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-context-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-context-indexer-5.2.6.RELEASE-javadoc.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-context-indexer-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-context-support-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-context-support-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-core-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-core-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-expression-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-expression-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-instrument-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-instrument-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-jcl-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-jcl-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-jdbc-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-jdbc-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-jms-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-jms-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-messaging-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-messaging-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-orm-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-orm-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-oxm-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-oxm-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-test-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-test-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-tx-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-tx-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-web-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-web-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-webflux-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-webflux-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-webmvc-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-webmvc-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/spring-websocket-5.2.6.RELEASE.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-websocket-5.2.6.RELEASE-sources.jar" />
+	<classpathentry
+			kind="output"
+			path="bin" />
+</classpath>
