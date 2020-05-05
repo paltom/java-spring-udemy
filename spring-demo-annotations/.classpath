@@ -97,6 +97,10 @@
 			path="/home/user/Tutorials/java-spring-udemy/lib/spring-websocket-5.2.6.RELEASE.jar"
 			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/spring-websocket-5.2.6.RELEASE-sources.jar" />
 	<classpathentry
+			kind="lib"
+			path="/home/user/Tutorials/java-spring-udemy/lib/javax.annotation-api-1.3.2.jar"
+			sourcepath="/home/user/Tutorials/java-spring-udemy/lib/javax.annotation-api-1.3.2-sources.jar" />
+	<classpathentry
 			kind="output"
 			path="bin" />
 </classpath>
