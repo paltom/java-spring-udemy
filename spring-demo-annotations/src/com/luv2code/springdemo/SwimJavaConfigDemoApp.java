@@ -12,11 +12,14 @@ public class SwimJavaConfigDemoApp {
                 SportConfig.class)) {
 
             // get the bean from spring container
-            Coach coach = applicationContext.getBean("swimCoach", Coach.class);
+            SwimCoach coach = applicationContext.getBean("swimCoach", SwimCoach.class);
 
             // call a method on the bean
             System.out.println(coach.getDailyWorkout());
             System.out.println(coach.getDailyFortune());
+
+            System.out.println("email: " + coach.getEmail());
+            System.out.println("team: " + coach.getTeam());
         } catch (BeansException e) {
             // TODO: handle exception
         }
