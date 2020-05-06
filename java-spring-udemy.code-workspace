@@ -8,6 +8,9 @@
         },
         {
             "path": "spring-demo-one"
+        },
+        {
+            "path": "spring-mvc-demo"
         }
     ],
     "settings": {
