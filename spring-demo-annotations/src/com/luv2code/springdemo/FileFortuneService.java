@@ -8,17 +8,21 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 
+import javax.annotation.PostConstruct;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class FileFortuneService implements FortuneService {
 
+    @Value("${fortunes.file}") Path file;
     private List<String> fortunes;
 
     private Random random = new Random();
 
-    public FileFortuneService(@Value("${fortunes.file}") Path file) {
+    @PostConstruct
+    public void init() {
         fortunes = readFortunesFile(file);
     }
 
