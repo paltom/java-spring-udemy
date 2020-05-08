@@ -118,6 +118,11 @@
 			path="WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"
 			sourcepath="WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1-sources.jar" />
 	<classpathentry
+			kind="lib"
+			path="WebContent/WEB-INF/lib/javax.servlet-api-4.0.1.jar"
+			sourcepath="WebContent/WEB-INF/lib/javax.servlet-api-4.0.1-sources.jar" />
+
+	<classpathentry
 			kind="output"
 			path="WebContent/WEB-INF/classes" />
 </classpath>
