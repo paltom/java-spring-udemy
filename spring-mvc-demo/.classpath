@@ -119,5 +119,5 @@
 			sourcepath="WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1-sources.jar" />
 	<classpathentry
 			kind="output"
-			path="bin" />
+			path="WebContent/WEB-INF/classes" />
 </classpath>
