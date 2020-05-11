@@ -16,7 +16,7 @@
             "/home/user/Tutorials/java-spring-udemy/lib/**/*.jar"
         ],
         "java.dependency.packagePresentation": "flat",
-        "java.format.settings.url": "file:///home/user/Software/eclipse/formatter.xml",
+        "java.format.settings.url": "file:///home/user/Tutorials/java-spring-udemy/formatter.xml",
         "java.format.settings.profile": "Eclipse [built-in] (modified)"
     },
     "launch": {
