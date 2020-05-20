@@ -6,21 +6,26 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import com.luv2code.springdemo.mvc.validation.CourseCode;
+
 public class Customer {
 
     private String firstName;
 
-    @NotNull(message="is required")
-    @Size(min=1, message="is required")
+    @NotNull(message = "is required")
+    @Size(min = 1, message = "is required")
     private String lastName;
 
-    @NotNull(message="is required")
-    @Min(value=0, message="must be greater than or equal to zero")
-    @Max(value=10, message="must be less than or equal to 10")
+    @NotNull(message = "is required")
+    @Min(value = 0, message = "must be greater than or equal to zero")
+    @Max(value = 10, message = "must be less than or equal to 10")
     private Integer freePasses;
 
-    @Pattern(regexp="^[0-9a-zA-Z]{5}", message="only 5 chars/digits")
+    @Pattern(regexp = "^[0-9a-zA-Z]{5}", message = "only 5 chars/digits")
     private String postalCode;
+
+    @CourseCode(value = "TOPS", message = "must start with TOPS")
+    private String courseCode;
 
     /**
      * @return String return the firstName
@@ -64,7 +69,6 @@ public class Customer {
         this.freePasses = freePasses;
     }
 
-
     /**
      * @return String return the postalCode
      */
@@ -77,6 +81,20 @@ public class Customer {
      */
     public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
+    }
+
+    /**
+     * @return String return the courseCode
+     */
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    /**
+     * @param courseCode the courseCode to set
+     */
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 
 }
