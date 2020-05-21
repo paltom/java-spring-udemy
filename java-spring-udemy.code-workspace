@@ -8,16 +8,26 @@
         },
         {
             "path": "spring-mvc-demo"
+        },
+        {
+            "path": "hibernate-tutorial"
         }
     ],
     "settings": {
         "java.dependency.syncWithFolderExplorer": true,
-        "java.project.referencedLibraries": [
-            "/home/user/Tutorials/java-spring-udemy/lib/**/*.jar"
-        ],
         "java.dependency.packagePresentation": "flat",
         "java.format.settings.url": "file:///home/user/Tutorials/java-spring-udemy/formatter.xml",
-        "java.format.settings.profile": "Eclipse [built-in] (modified)"
+        "java.format.settings.profile": "Eclipse [built-in] (modified)",
+        "database.connections": [
+            {
+                "type": "mysql",
+                "name": "hbstudent@localhost (MySql)",
+                "host": "localhost:3306",
+                "username": "hbstudent",
+                "database": null,
+                "password": "hbstudent"
+            }
+        ]
     },
     "launch": {
         "configurations": [
