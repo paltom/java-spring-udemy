@@ -53,7 +53,6 @@
                             <goal>java</goal>
                         </goals>
                     </execution>
-                    <execution><goals><goal></goal></goals></execution>
                 </executions>
                 <configuration>
                     <mainClass>com.luv2code.springboot.demo.mycoolapp.MycoolappApplication</mainClass>

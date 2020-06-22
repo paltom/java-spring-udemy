@@ -2,5 +2,7 @@
     "src/main/java/*.java": {"type": "src", "alternate": "src/test/java/{}Test.java"},
     "src/test/java/*Test.java": {"type": "test", "alternate": "src/main/java/{}.java"},
     "pom.xml": {"type": "pom"},
-    "*": {"make": "mvn"}
+    "*": {"make": "mvn"},
+    "src/main/resources/*": {"type": "res"},
+    "src/main/resources/application.properties": {"type": "aprop"}
 }
