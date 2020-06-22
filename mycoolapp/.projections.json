@@ -3,6 +3,6 @@
     "src/test/java/*Test.java": {"type": "test", "alternate": "src/main/java/{}.java"},
     "pom.xml": {"type": "pom"},
     "*": {"make": "mvn"},
-    "src/main/resources/*": {"type": "res"},
-    "src/main/resources/application.properties": {"type": "aprop"}
+    "src/main/resources/application.properties": {"type": "aprop"},
+    "src/main/resources/*": {"type": "res"}
 }
